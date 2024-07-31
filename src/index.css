@@ -11,10 +11,6 @@ body {
   align-items: center;
 }
 
-img {
-  width: 100%;
-}
-
 fieldset {
   display: flex;
   justify-content: space-around;
@@ -25,7 +21,10 @@ fieldset {
 h1 {
   text-align: center;
 }
-
+main img {
+  width: 100%;
+  height: 100vh;
+}
 fieldset img {
   width: 100px;
   height: 100px;

@@ -13,12 +13,19 @@ import giant from "./assets/giant.jpeg";
 function App() {
   return (
     <>
-      <h1>Plant Vs Zombie</h1>
+      <nav className="bg-dark text-white p-5">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <div class="navbar-header">
+            <a class="navbar-brand">Plant Vs Zombie</a>
+          </div>
+        </div>
+      </nav>
       <hr />
-      <img src={logo} alt="logo" className="logo" />
-
+      <main>
+        <img src={logo} alt="logo" className="logo" />
+      </main>
+      <h2>Plants</h2>
       <fieldset>
-        <h2>Plants</h2>
         <div className="card">
           <img src={sunflower} alt="sunflower" />
           <h1>Sunflower</h1>
@@ -40,8 +47,8 @@ function App() {
           <h2>Cherry Bomb</h2>
         </div>
       </fieldset>
+      <h2>Zombies</h2>
       <fieldset>
-        <h2>Zombies</h2>
         <div className="card">
           <img src={zombie} alt="zombie" />
           <h1>Zombie</h1>

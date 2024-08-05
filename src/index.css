@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "PT Serif", serif;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
 fieldset {
@@ -17,7 +19,9 @@ fieldset {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.navbar-brand {
+  font-size: 30px;
+}
 h1,
 h2 {
   text-align: center;
@@ -29,8 +33,14 @@ h2 {
   margin: 2px;
 }
 main img {
-  width: 100%;
+  width: 90%;
+  margin-inline: auto;
+  display: block;
+  margin: auto;
   background-size: contain;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 0 black;
 }
 fieldset img {
   width: 100px;

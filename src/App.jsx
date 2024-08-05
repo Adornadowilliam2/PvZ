@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/logo.png";
 import sunflower from "./assets/sunflower.jpeg";
 import wallnut from "./assets/wallnut.jpeg";
 import cherrybomb from "./assets/cherrybomb.jpeg";
@@ -9,7 +9,7 @@ import potatomine from "./assets/potatomine.jpeg";
 import peashooter from "./assets/peashooter.jpeg";
 import zombie from "./assets/zombie.jpeg";
 import muzan from "./assets/michael.jpeg";
-import giant from "./assets/giant.jpeg";
+import giant from "./assets/giant.png";
 function App() {
   return (
     <>
@@ -20,7 +20,6 @@ function App() {
           </div>
         </div>
       </nav>
-      <hr />
       <main>
         <img src={logo} alt="logo" className="logo" />
       </main>

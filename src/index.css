@@ -47,10 +47,29 @@ fieldset img {
   height: 100px;
 }
 
-.card {
-  border: 2px solid black;
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input {
   margin: 10px;
-  width: 200px;
   padding: 10px;
-  background-color: white;
+  background-color: aliceblue;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 10px 10px 0 black;
+}
+
+.search-container button {
+  margin: 10px 0 20px 0;
+  padding: 10px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 10px 10px 0 black;
 }

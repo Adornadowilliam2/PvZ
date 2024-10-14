@@ -25,7 +25,7 @@ function App() {
               className="navbar-brand"
               style={{ display: "flex", alignItems: "center" }}
             >
-              <span class="text-animation">Plant Vs Zombie</span>
+              <span className="text-animation">Plant Vs Zombie</span>
             </a>
           </div>
         </div>
@@ -69,7 +69,9 @@ function App() {
                 borderRadius: "50%",
                 width: "50px",
               }}
-            >{`${item.gameId}`}</span>
+            >
+              {item.gameId}
+            </span>
             <img src={item.image} alt={item.name} />
             <h1>{item.name}</h1>
           </div>

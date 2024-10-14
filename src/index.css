@@ -71,3 +71,30 @@ fieldset img {
   font-size: 20px;
   box-shadow: 10px 10px 0 black;
 }
+
+.text-animation {
+  display: inline-block;
+  overflow: hidden; /* Ensure that the letters don't overflow */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 3s steps(15) forwards; /* Adjust the timing and steps */
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width */
+  }
+  to {
+    width: 100%; /* End with full width */
+  }
+}
+
+/* .navbar-brand {
+  border-right: 2px solid white;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+} */

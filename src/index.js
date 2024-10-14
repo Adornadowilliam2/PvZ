@@ -10,6 +10,10 @@ import snowpea from "./assets/snowpea.png";
 import garlic from "./assets/garlic.png";
 import chili from "./assets/chili.png";
 import squash from "./assets/squash.png";
+import corncatapult from "./assets/corncatapult.png";
+import cabbagecatapult from "./assets/cabbagecatapult.png";
+import tallnut from "./assets/tallnut.png";
+import spikeweed from "./assets/spikeweed.png";
 export const data = [
   [
     {
@@ -66,23 +70,47 @@ export const data = [
       name: "squash",
       image: squash,
     },
+    {
+      id: 10,
+      gameId: 10,
+      name: "spikeweed",
+      image: spikeweed,
+    },
+    {
+      id: 11,
+      gameId: 11,
+      name: "cabbage catapult",
+      image: cabbagecatapult,
+    },
+    {
+      id: 12,
+      gameId: 12,
+      name: "corn catapult",
+      image: corncatapult,
+    },
+    {
+      id: 13,
+      gameId: 13,
+      name: "tallnut",
+      image: tallnut,
+    },
   ],
   [
     {
       id: 1,
-      gameId: 10,
+      gameId: 14,
       name: "zombie",
       image: zombie,
     },
     {
       id: 2,
-      gameId: 11,
+      gameId: 15,
       name: "muzan",
       image: muzan,
     },
     {
       id: 3,
-      gameId: 12,
+      gameId: 16,
       name: "giant",
       image: giant,
     },

@@ -21,10 +21,16 @@ function App() {
       <nav className="bg-dark text-white p-2 position-fixed w-100 z-2">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div className="navbar-header">
-            <a className="navbar-brand">Plant Vs Zombie</a>
+            <a
+              className="navbar-brand"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <span class="text-animation">Plant Vs Zombie</span>
+            </a>
           </div>
         </div>
       </nav>
+
       <main>
         <div className="logo"></div>
         <div className="search-container">
